@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (
     <div>
-      <header className="padding-x py-6 fixed z-20 w-full bg-slate-700">
+      <header className="padding-x py-4 fixed z-20 w-full bg-slate-700">
         <nav className="flex justify-between items-center max-container">
           <a href="/">
             <img src={headerLogo} alt="Logo" width={130} height={29} />
@@ -18,7 +18,7 @@ const Nav = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="font-montserrat leading-normal text-lg text-white font-bold"
+                  className="font-montserrat leading-normal text-lg text-white font-semibold"
                 >
                   {item.label}
                 </a>
@@ -43,7 +43,7 @@ const Nav = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="font-montserrat leading-normal text-lg text-white"
+                  className="font-montserrat leading-normal text-lg text-white font-medium"
                   onClick={() => {
                     setNavMenu(false);
                   }}

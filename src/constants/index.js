@@ -12,6 +12,7 @@ import {
   bigShoe3,
   customer1,
   customer2,
+  customer3,
   shoe4,
   shoe5,
   shoe6,
@@ -105,6 +106,13 @@ export const reviews = [
     rating: 4.5,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+  },
+  {
+    imgURL: customer3,
+    customerName: "Jane Brown",
+    rating: 5,
+    feedback:
+      "The product surprised me. I'm absolutely thrilled with my purchase and can't wait to come back for more!",
   },
 ];
 
